@@ -1,6 +1,6 @@
 # AI Email Inbox Cleaner 📮
 
-An intelligent AI agent that acts as your personal email assistant — filtering, summarizing, and prioritizing your inbox using a multi-stage agentic pipeline powered by OpenAI GPT-4o.
+An intelligent AI agent that acts as your personal email assistant — filtering, summarizing, and prioritizing your inbox using a multi-stage agentic pipeline powered by OpenRouter API Key. 
 
 ## 🎯 What It Does
 
@@ -18,7 +18,7 @@ An intelligent AI agent that acts as your personal email assistant — filtering
 └──────────────────────── REST API ──────────────────────────┘
 ┌───────────────── Backend (Node.js + Express) ──────────────┐
 │  Stage 1: Classification │ Stage 2: Summary │ Stage 3: Reply │
-│             OpenAI GPT-4o Structured Outputs                │
+│             OpenRouter AI Structured Outputs                │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -26,7 +26,7 @@ An intelligent AI agent that acts as your personal email assistant — filtering
 
 ### Prerequisites
 - Node.js 18+
-- OpenAI API key
+- OpenRouter API key
 
 ### Setup
 
@@ -70,7 +70,7 @@ Click **"Load Sample Emails"** to instantly load 10 realistic test emails coveri
 | Feature | Description |
 |---------|-------------|
 | **Multi-Stage Agent Pipeline** | 3-stage process: Classify → Summarize → Reply |
-| **Structured AI Outputs** | OpenAI JSON Schema enforcement for guaranteed response format |
+| **Structured AI Outputs** | OpenRouter JSON Schema enforcement for guaranteed response format |
 | **Live Pipeline Animation** | Visual stage-by-stage processing feedback |
 | **Smart Categorization** | Urgency detection, deadline extraction, phishing detection |
 | **Transparent Reasoning** | Human-readable explanation for every classification |
@@ -112,5 +112,5 @@ inbox-cleaner/
 
 - **Frontend**: React + Vite
 - **Backend**: Node.js + Express
-- **AI**: OpenAI GPT-4o-mini (Structured Outputs)
+- **AI**: OpenRouter API KEY (Structured Outputs)
 - **Styling**: Vanilla CSS with glassmorphism design system
